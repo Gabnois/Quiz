@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FEFBDE">
+
+    <TextView
+        android:id="@+id/nomejogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Quiz Do Adaozinho"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginTop="150dp"
+        android:textColor="#F55543"
+        />
+
+    <Button
+        android:id="@+id/btbegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nomejogo"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="40sp"
+        android:paddingRight="40sp"
+        android:paddingTop="15sp"
+        android:text="Começar"
+        />
+
+    <Button
+        android:id="@+id/btexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btbegin"
+        android:layout_marginTop="30sp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="40sp"
+        android:paddingRight="40sp"
+        android:paddingTop="15sp"
+        android:text="Sair" />
+
+</RelativeLayout>
